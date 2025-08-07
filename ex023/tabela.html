@@ -33,16 +33,16 @@
         </caption>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
 
 
         </thead>
         <tbody>
             <tr>
-                <Th rowspan="3">Mulheres</Th>
+                <Th rowspan="3" scope="rowgroup">Mulheres</Th>
                 <td>Ana maria santos </td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -64,7 +64,7 @@
             </tr>
 
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno mendonça</td>
                 <td>Intocaveis</td>
                 <td>Aminezia</td>
@@ -88,6 +88,14 @@
                 <td>Taxi Driver</td>
                 <td>Toy story</td>
             </tr>
+            <tfoot>
+                <tr>
+                    <th colspan="4" scope="col">total</th>
+                    <td>1000</td>
+                </tr>
+                
+            </tfoot>
+
 
 
         </tbody>
